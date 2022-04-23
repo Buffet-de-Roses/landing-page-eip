@@ -15,6 +15,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
 import { PostItComponent } from './pages/services/post-it/post-it.component';
 import {MatIconModule} from '@angular/material/icon';
+import { TeamComponent } from './pages/team/team.component';
+import { MemberComponent } from './pages/team/member/member.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import {MatIconModule} from '@angular/material/icon';
     FooterComponent,
     HomeComponent,
     ServicesComponent,
-    PostItComponent
+    PostItComponent,
+    TeamComponent,
+    MemberComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

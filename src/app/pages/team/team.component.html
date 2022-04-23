@@ -1,0 +1,8 @@
+<main>
+  <div class="team">
+    <h1>{{ 'Notre équipe' | titlecase }}</h1>
+    <div class="members">
+      <app-member *ngFor="let member of members" [member]="member"></app-member>
+    </div>
+</div>
+</main>

@@ -2,7 +2,10 @@
   height: 400px;
   width: 400px;
   box-sizing: border-box;
-  padding: 24px;
+  padding-top: 56px;
+  padding-left: 72px;
+  padding-right: 72px;
+  padding-bottom: 56px;
 }
 
 .title {
@@ -16,6 +19,9 @@ h1 {
   padding: 0px;
 }
 
+p {
+  margin-top: 48px;
+}
 mat-icon {
   margin: 0px;
   padding: 0px;

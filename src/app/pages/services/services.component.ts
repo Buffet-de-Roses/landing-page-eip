@@ -11,20 +11,20 @@ import { ViewEncapsulation } from '@angular/core';
 export class ServicesComponent implements OnInit {
   postIts: PostIt[] = [
     {
-      title: 'Evenement',
-      description: 'Post-it Evenement',
+      title: 'Évènement',
+      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
       color: 'FFFFCC',
       icone: 'event_note',
     },
     {
       title: 'Liste',
-      description: 'Post-it Liste',
+      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
       color: 'CCFFEE',
       icone: 'list',
     },
     {
       title: 'Média',
-      description: 'Post-it Média',
+      description: `Lorem Ipsum is simply dummy text of the printing and typesetting industry.`,
       color: 'CCFFFF',
       icone: 'perm_media',
     }
