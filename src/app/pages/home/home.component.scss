@@ -1,0 +1,28 @@
+@import '~/src/sass/variables.scss';
+
+.caption {
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    font-size: 64px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    color: $primary;
+  }
+
+  .discover-btn {
+    background-color: $primary;
+    color: #fff;
+    font-size: 24px;
+    padding: 8px;
+    font-family: 'Ubuntu';
+  }
+}
+
+.hero-banner-picture {
+  height: 70%;
+  img {
+    height: 100%;
+  }
+}

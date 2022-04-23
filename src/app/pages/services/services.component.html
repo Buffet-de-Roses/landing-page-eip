@@ -1,0 +1,16 @@
+<main>
+  <div class="solution">
+    <h1 class="animate__animated animate__fadeInLeft">Notre solution</h1>
+    <p>Tout d’abord, avec un calendrier partagé qui permet de planifier des appels entre chaque membre ou bien de planifier une sortie quelconque.</p>
+    <p>Mais aussi un album de photos partagées afin d’avoir de pouvoir transmettre des moments de vie à toute la famille.</p>
+    <p>De plus, notre solution permet de partager les nouvelles de tout le monde pour mettre au courant toute la famille de vos actualités.</p>
+    <p>Pour conclure, une création de liste interactive disponible pour les membres choisis permet à tous ces membres de participer à une certaine tâche telle que faire les courses.</p>
+  </div>
+  <div class="services">
+    <ngb-carousel [pauseOnHover]="true" [pauseOnFocus]="true" [interval]="10000">
+      <ng-template *ngFor="let postIt of postIts" ngbSlide>
+        <app-post-it [postIt]="postIt"></app-post-it>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+</main>

@@ -1,0 +1,25 @@
+.solution {
+  // height: 40%;
+  width: 40%;
+}
+
+.services {
+  width: 400px;
+  margin-left: 48px;
+  box-shadow: #000 3px 3px 7px;
+}
+
+.carousel-control-prev-icon{
+  background-image: url('https://apufpel.com.br/assets/img/seta_prim.png')
+}
+.carousel-control-next-icon{
+ background-image: url('https://apufpel.com.br/assets/img/seta_ult.png')
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #000 !important;
+}
+
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}

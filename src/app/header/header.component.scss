@@ -1,0 +1,31 @@
+@import '~/src/sass/variables.scss';
+header {
+  background-color: $second;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.name-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img {
+    height: 48px;
+    width: 48px;
+    margin-right: 16px;
+  }
+}
+
+a {
+  margin: 0 10px;
+  color: $primary;
+  text-decoration: none;
+}
