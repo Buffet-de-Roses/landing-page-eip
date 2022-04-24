@@ -18,6 +18,11 @@ import {MatIconModule} from '@angular/material/icon';
 import { TeamComponent } from './pages/team/team.component';
 import { MemberComponent } from './pages/team/member/member.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { FormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import { TimelineComponent } from './pages/timeline/timeline.component';
+import {MatStepperModule} from '@angular/material/stepper';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     PostItComponent,
     TeamComponent,
     MemberComponent,
-    ContactComponent
+    ContactComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +46,11 @@ import { ContactComponent } from './pages/contact/contact.component';
     NgbModule,
     NgbPaginationModule,
     NgbAlertModule,
-    MatIconModule
+    MatIconModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatInputModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

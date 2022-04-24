@@ -1,18 +1,20 @@
 .member {
-  width: 200px;
-  height: 324px;
-  background-color: burlywood;
+  width: 150px;
+  height: 243px;
+  background-color: #4490F4;
   box-sizing: border-box;
   margin: 24px;
   padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px burlywood solid;
+  border-radius: 10px;
 }
 
 .img-border {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   margin-bottom: 24px;
   border-radius: 50%;
   border: 1px solid white;

@@ -1,0 +1,36 @@
+@import '~/src/sass/variables.scss';
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+p {
+  font-size: 40px;
+  width: 50%;
+}
+
+.contact-form {
+  background-color: aliceblue;
+  width: 50%;
+  border-radius: 10px;
+  form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 24px;
+
+    button {
+      background-color: $primary;
+      color: white;
+      font-size: 24px;
+      padding: 8px;
+    }
+  }
+}

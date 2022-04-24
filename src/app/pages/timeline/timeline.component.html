@@ -1,0 +1,7 @@
+<main>
+  <mat-stepper [linear]="true" #stepper>
+    <mat-step *ngFor="let step of timeline">
+      <ng-template matStepLabel>{{step.title}}</ng-template>
+    </mat-step>
+  </mat-stepper>
+</main>

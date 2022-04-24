@@ -1,3 +1,44 @@
 <main>
-  
+  <div class="contact">
+    <div class="contact-explain">
+      <h1>{{ 'Contactez-nous !' | uppercase}}</h1>
+      <p>Vous pouvez nous contactez directement ici pour des questions sur l'application.</p>
+    </div>
+    <div class="contact-form">
+      <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+        <mat-form-field appearance="outline">
+          <mat-label for="name">{{'name' | titlecase}}</mat-label>
+          <input
+            id="name"
+            ngModel
+            name="name"
+            required
+            matInput
+          >
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label for="email">{{'email' | titlecase}}</mat-label>
+          <input
+            id="email"
+            ngModel
+            name="email"
+            required
+            email
+            matInput
+          >
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label for="message">{{'message' | titlecase}}</mat-label>
+          <textarea
+            id="message"
+            ngModel
+            name="message"
+            required
+            matInput
+          ></textarea>
+        </mat-form-field>
+        <button mat-stroked-button>Envoyer</button>
+      </form>
+    </div>
+  </div>
 </main>
