@@ -1,31 +1,35 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { TimeLine } from 'src/app/models/timeline.model';
 
-interface TimeLine {
-  title: string,
-  description: string,
-  date: Date,
-}
 @Component({
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',
   styleUrls: ['./timeline.component.scss']
 })
 export class TimelineComponent implements OnInit {
-  timeline!: TimeLine[];
+  timeline !: TimeLine[];
+
   constructor() { }
 
   ngOnInit(): void {
     this.timeline = [
       {
-        title: 'First',
-        description: 'first',
-        date: new Date(),
+        date: new Date('2022-02'),
+        title: 'Idéation',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        color: '#94FF33',
       },
       {
-        title: 'Second',
-        description: 'Second',
-        date: new Date(),
+        date: new Date('2022-03'),
+        title: 'Création',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        color: '#FFC133',
+      },
+      {
+        date: new Date('2022-05'),
+        title: 'Beta',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        color: '#FF4933',
       }
     ]
   }

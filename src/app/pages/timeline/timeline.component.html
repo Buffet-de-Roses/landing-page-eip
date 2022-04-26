@@ -1,7 +1,5 @@
 <main>
-  <mat-stepper [linear]="true" #stepper>
-    <mat-step *ngFor="let step of timeline">
-      <ng-template matStepLabel>{{step.title}}</ng-template>
-    </mat-step>
-  </mat-stepper>
+  <div class="timeline">
+    <app-event *ngFor="let event of timeline" [event]="event"></app-event>
+  </div>
 </main>

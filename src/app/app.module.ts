@@ -26,6 +26,7 @@ import {MatStepperModule} from '@angular/material/stepper';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { EventComponent } from './pages/timeline/event/event.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     TeamComponent,
     MemberComponent,
     ContactComponent,
-    TimelineComponent
+    TimelineComponent,
+    EventComponent
   ],
   imports: [
     BrowserModule,
