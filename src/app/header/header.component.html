@@ -1,12 +1,16 @@
 <header>
   <div class="name-logo" routerLink="">
-    <img alt="logo" src="assets/logo.png">
+    <img alt="logo" src="assets/logo.png" />
     <h1>MyTribe</h1>
   </div>
-  <!-- <nav>
-    <a routerLink="services">Services</a>
-    <a routerLink="timeline">Timeline</a>
-    <a routerLink="team">Équipe</a>
-    <a routerLink="contact">Contact</a>
-  </nav> -->
+  <input id="menu-toggle" type="checkbox" />
+  <label class="menu-button-container" for="menu-toggle">
+    <div class="menu-button"></div>
+  </label>
+  <ul class="menu">
+    <li routerLink="services">Services</li>
+    <li routerLink="timeline">Timeline</li>
+    <li routerLink="team">Équipe</li>
+    <li routerLink="contact">Contact</li>
+  </ul>
 </header>

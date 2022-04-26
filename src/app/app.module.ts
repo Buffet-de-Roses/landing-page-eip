@@ -23,6 +23,9 @@ import { FormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import { TimelineComponent } from './pages/timeline/timeline.component';
 import {MatStepperModule} from '@angular/material/stepper';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -50,7 +53,10 @@ import {MatStepperModule} from '@angular/material/stepper';
     MatFormFieldModule,
     FormsModule,
     MatInputModule,
-    MatStepperModule
+    MatStepperModule,
+    FlexLayoutModule,
+    MatToolbarModule,
+    MatSidenavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
