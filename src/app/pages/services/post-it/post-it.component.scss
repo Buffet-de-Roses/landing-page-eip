@@ -30,3 +30,18 @@ mat-icon {
   text-align: center;
   margin-top: -14px;
 }
+
+@media screen and (max-width: 450px) {
+  .post-it {
+    height: 250px;
+    width: 250px;
+    padding-top: 12px;
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 12px;
+  }
+
+  p {
+    margin-top: 24px;
+  }
+}

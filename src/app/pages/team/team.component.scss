@@ -1,6 +1,6 @@
-// main {
-//   height: 100%;
-// }
+main {
+  height: 110%;
+}
 
 .team {
   display: flex;
@@ -14,4 +14,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media screen and (max-width: 450px) {
+
+  .members {
+    justify-content: flex-start;
+  }
 }
