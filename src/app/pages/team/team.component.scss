@@ -16,9 +16,17 @@ main {
   justify-content: center;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 1024px) {
+  main {
+    height: 135%;
+  }
+}
 
-  .members {
-    justify-content: flex-start;
+@media screen and (max-width: 450px) {
+  main {
+    height: 450%;
+    padding-left: 12px;
+    padding-right: 12px;
+    align-items: center;
   }
 }
