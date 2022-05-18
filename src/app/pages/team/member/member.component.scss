@@ -19,11 +19,13 @@
   border-radius: 50%;
   border: 1px solid white;
   img {
+    height: 100%;
     width: 100%;
-    height: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    object-fit: cover;
     border-radius: 50%;
   }
+}
+
+p {
+  text-align: center;
 }

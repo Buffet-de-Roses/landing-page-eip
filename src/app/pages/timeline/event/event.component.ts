@@ -12,4 +12,12 @@ export class EventComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  getColor() {
+    const percent = this.event.date.getTime() / Date.now() * 100;
+    console.log(this.event.title, ' : ', percent);
+    if (percent > 100 && percent < 101) return 'orange';
+    if (percent > 100) return 'red';
+    else return 'green';
+  }
 }
