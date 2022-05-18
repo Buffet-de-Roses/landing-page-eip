@@ -1,5 +1,6 @@
 <div class="event">
-  <h1>{{event.date | date: 'mediumDate'}}</h1>
+  <!-- <div class="circle"></div> -->
+  <h1>{{event.date | date: 'MM,YYYY'}}</h1>
   <div class="info" [ngStyle]="{'border-color': getColor()}">
     <h5>{{event.title}}</h5>
     <p>

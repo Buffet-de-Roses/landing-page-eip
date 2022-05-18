@@ -18,7 +18,7 @@ export class TeamComponent implements OnInit {
     firstname: 'Tom',
     lastname: 'Marescot',
     role: 'Développeur Backend',
-    imgUrl: 'assets/profile_pic/tom.png',
+    imgUrl: 'assets/profile_pic/tom.jpg',
   },
   {
     firstname: 'Christopher',
