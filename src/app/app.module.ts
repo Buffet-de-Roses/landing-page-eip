@@ -27,6 +27,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { EventComponent } from './pages/timeline/event/event.component';
+import { FeedbackComponent } from './pages/feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { EventComponent } from './pages/timeline/event/event.component';
     MemberComponent,
     ContactComponent,
     TimelineComponent,
-    EventComponent
+    EventComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

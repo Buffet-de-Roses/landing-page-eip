@@ -1,0 +1,55 @@
+@import '~/src/sass/variables.scss';
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+p {
+  width: 50%;
+}
+
+.feedback-form {
+  width: 50%;
+  button {
+    background-color: $primary;
+    padding: 8px;
+    a {
+      color: white;
+      font-size: 24px;
+      text-decoration: none;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  main {
+    height: 85%;
+    padding: 24px;
+  }
+
+  .feedback {
+    flex-direction: column;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .feedback-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
