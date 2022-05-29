@@ -12,7 +12,7 @@ export class TeamComponent implements OnInit {
     firstname: 'Justin',
     lastname: 'Cruceru',
     role: 'Chef de projet, Développeur Backend/Robot',
-    imgUrl: 'assets/profile_pic/empty.png',
+    imgUrl: 'assets/profile_pic/justin.cruceru.jpg',
   },
   {
     firstname: 'Tom',
